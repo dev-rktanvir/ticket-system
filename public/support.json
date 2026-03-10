@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1001,
+        "title": "Login page not loading",
+        "description": "Customer reports that the login page stays blank after clicking the login button.",
+        "customer": "John Smith",
+        "priority": "High Priority",
+        "status": "Open",
+        "createdAt": "2026-03-01T09:15:00Z"
+    },
+    {
+        "id": 1002,
+        "title": "Payment declined but money deducted",
+        "description": "Customer was charged but received a payment declined message during checkout.",
+        "customer": "Emma Johnson",
+        "priority": "Medium Priority",
+        "status": "Open",
+        "createdAt": "2026-03-01T10:30:00Z"
+    },
+    {
+        "id": 1003,
+        "title": "Unable to reset password",
+        "description": "Password reset email is not being received by the customer.",
+        "customer": "Michael Brown",
+        "priority": "Low Priority",
+        "status": "In Progress",
+        "createdAt": "2026-03-02T08:45:00Z"
+    },
+    {
+        "id": 1004,
+        "title": "App crashes on startup",
+        "description": "Mobile app crashes immediately after launching on Android devices.",
+        "customer": "Sophia Davis",
+        "priority": "High Priority",
+        "status": "Open",
+        "createdAt": "2026-03-02T11:20:00Z"
+    },
+    {
+        "id": 1005,
+        "title": "Profile picture not updating",
+        "description": "Customer cannot update profile picture; upload fails with unknown error.",
+        "customer": "Daniel Wilson",
+        "priority": "Low Priority",
+        "status": "Open",
+        "createdAt": "2026-03-02T14:05:00Z"
+    },
+    {
+        "id": 1006,
+        "title": "Order history missing",
+        "description": "Customer's previous orders are not visible in the dashboard.",
+        "customer": "Olivia Martinez",
+        "priority": "Medium Priority",
+        "status": "In Progress",
+        "createdAt": "2026-03-03T09:00:00Z"
+    },
+    {
+        "id": 1007,
+        "title": "Two-factor authentication not working",
+        "description": "Customer does not receive OTP code during login attempt.",
+        "customer": "James Anderson",
+        "priority": "Low Priority",
+        "status": "Open",
+        "createdAt": "2026-03-03T10:15:00Z"
+    },
+    {
+        "id": 1008,
+        "title": "Slow loading dashboard",
+        "description": "Dashboard takes more than 20 seconds to fully load.",
+        "customer": "Isabella Thomas",
+        "priority": "Medium Priority",
+        "status": "Open",
+        "createdAt": "2026-03-03T13:40:00Z"
+    },
+    {
+        "id": 1009,
+        "title": "Error 500 on settings page",
+        "description": "Internal server error appears when accessing account settings.",
+        "customer": "William Taylor",
+        "priority": "High Priority",
+        "status": "In Progress",
+        "createdAt": "2026-03-04T07:55:00Z"
+    },
+    {
+        "id": 1010,
+        "title": "Subscription cancellation issue",
+        "description": "Customer unable to cancel subscription from billing section.",
+        "customer": "Ava Moore",
+        "priority": "Medium Priority",
+        "status": "Open",
+        "createdAt": "2026-03-04T09:25:00Z"
+    }
+]
