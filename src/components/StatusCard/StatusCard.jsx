@@ -2,7 +2,7 @@ import React from 'react';
 import bgImg1 from '../../assets/vector1.png';
 import bgImg2 from '../../assets/vector2.png';
 
-const StatusCard = ({ title, bgClr }) => {
+const StatusCard = ({ title, bgClr, progressTasks }) => {
     return (
         <div className={`relative overflow-hidden p-20 rounded-lg text-center ${bgClr}`}>
             {/* Left Image */}
@@ -20,7 +20,7 @@ const StatusCard = ({ title, bgClr }) => {
             />
             <div className='relative z-10'>
                 <h3 className='text-2xl text-white mb-4'>{title}</h3>
-                <span className='font-semibold text-6xl text-white'>0</span>
+                <span className='font-semibold text-6xl text-white'>{progressTasks?.length}</span>
             </div>
 
         </div>

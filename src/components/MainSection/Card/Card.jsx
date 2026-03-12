@@ -1,10 +1,14 @@
-import React from 'react';
 import { IoCalendarClearOutline } from 'react-icons/io5';
 
-const Card = ({ data }) => {
+const Card = ({ data, handleProgressTasks, handleShowAbleCards }) => {
     const { id, title, description, customer, priority, status, createdAt } = data;
+
+    const handleClickedCard = (clickedCardData) => {
+        handleShowAbleCards(clickedCardData);
+        handleProgressTasks(clickedCardData);
+    }
     return (
-        <div className='p-4 rounded-sm bg-white shadow-md cursor-pointer'>
+        <div onClick={() => handleClickedCard(data)} className='p-4 rounded-sm bg-white shadow-md cursor-pointer'>
             {/* Title & Button */}
             <div className='flex items-center justify-between'>
                 <h3 className='font-medium text-lg text-black'>{title}</h3>

@@ -2,12 +2,12 @@ import React from 'react';
 import TaskStatus from '../TaskStatus/TaskStatus';
 import ResolveStatus from '../ResolveStatus/ResolveStatus';
 
-const SideBar = () => {
+const SideBar = ({progressTasks}) => {
     return (
         <div className='flex flex-col gap-10 pb-5'>
             {/* Task Status */}
             <div>
-                <TaskStatus></TaskStatus>
+                <TaskStatus progressTasks={progressTasks}></TaskStatus>
             </div>
 
             {/* Resolve Status */}
